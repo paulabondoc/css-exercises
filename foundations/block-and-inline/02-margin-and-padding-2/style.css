@@ -7,7 +7,7 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
-  padding: 12px 8px 2px;
+  padding: 8px;
 }
 
 .title,
@@ -16,22 +16,26 @@ body {
   background: dodgerblue;
   font-size: 16px;
   padding: 8px;
-  margin: 8px 0;
+  /* margin: 8px 0; */
+  /* The title gets the big top margin from h1,
+  so it doesn't need a top-margin to achieve the big
+  whitespace at the top */
+  margin-bottom: 8px;
 }
 
 .content {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 8px;
 }
 
 .button-container {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 button {
   background: white;
   display: block;
   width: auto;
-  margin: auto;
+  margin: 0 auto;
   padding: 8px 24px;
 }
