@@ -12,6 +12,8 @@ img {
   font-weight: 900;
   /* Added */
   margin-bottom: 32px;
+  /* the below could have been moved to body since we wanted
+  everything to be centered anyway, otherwise perfect */
   text-align: center;
 }
 
