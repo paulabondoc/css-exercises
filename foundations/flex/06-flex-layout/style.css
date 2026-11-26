@@ -13,6 +13,12 @@ ul {
   padding: 0;
 }
 
+.header a,
+.footer a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
 img {
   width: 600px;
 }
