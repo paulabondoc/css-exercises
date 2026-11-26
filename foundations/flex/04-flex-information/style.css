@@ -14,8 +14,15 @@ img {
   text-align: center;
 }
 
+/* Added the below */
 .plant-collection {
   display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-info {
+  width: 200px;
 }
 
 /* do not edit this footer */
