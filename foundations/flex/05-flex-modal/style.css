@@ -30,10 +30,12 @@ body {
 .modal-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   /* this is where we differed a bit since they
   didn't make a separate div, they just moved
   the existing .header to also encompass the button.
   And we missed align-items: center; */
+  margin-bottom: 8px; /* moved here from .header */
 }
 
 .icon {
@@ -72,7 +74,7 @@ body {
 .header {
   font-size: 20px; /* they had 18px */
   font-weight: bold; /* they had 700 */
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   /* margin-bottom is right but it applied to both
   the header and the x button */
 }
