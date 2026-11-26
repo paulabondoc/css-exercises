@@ -8,6 +8,7 @@ body {
   /* Added */
   display: flex;
   flex-direction: column;
+  /* Just the above were added */
   justify-content: space-between;
   align-items: center;
 }
@@ -34,6 +35,8 @@ ul {
 }
 
 .content {
+  /* I keep not using flex lol, they used flex: 1,
+  which makes it grow... */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,11 +46,11 @@ ul {
 .header a,
 .footer a {
   text-decoration: none;
-  color: rgb(100, 100, 100);
+  color: rgb(100, 100, 100); /* pretty close, theirs was rgb(102x3) */
 }
 
 .footer {
-  padding: 20px 16px;
+  padding: 20px 16px; /* apparently, it's only 16px */
   background-color: #eeeeee;
 }
 
@@ -60,7 +63,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px 16px;
+  padding: 8px 16px; /* same */
 }
 
 input {
