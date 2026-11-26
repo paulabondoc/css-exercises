@@ -23,11 +23,13 @@ ul {
 .header ul,
 .footer ul {
   display: flex;
+  gap: 16px;
 }
 
 .header,
 .footer {
-  width: 100%;
+  padding: 16px;
+  width: stretch;
   justify-content: space-between;
 }
 
