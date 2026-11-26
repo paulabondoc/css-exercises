@@ -24,11 +24,16 @@ body {
   padding: 16px;
   display: flex;
   gap: 16px;
+  /* yuhhh perfect on this one */
 }
 
 .modal-header {
   display: flex;
   justify-content: space-between;
+  /* this is where we differed a bit since they
+  didn't make a separate div, they just moved
+  the existing .header to also encompass the button.
+  And we missed align-items: center; */
 }
 
 .icon {
@@ -44,6 +49,9 @@ body {
   justify-content: center;
   /* Added */
   min-width: 42px;
+  /* Instead of min-width here, they used flex-shrink: 0
+  which is probably cuter since we're doing flex,
+  but they achieve the same result */
 }
 
 .close-button {
@@ -62,13 +70,15 @@ body {
 }
 
 .header {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 20px; /* they had 18px */
+  font-weight: bold; /* they had 700 */
   margin-bottom: 8px;
+  /* margin-bottom is right but it applied to both
+  the header and the x button */
 }
 
 .text {
-  margin-bottom: 16px;
+  margin-bottom: 16px; /* yuh */
 }
 
 button {
